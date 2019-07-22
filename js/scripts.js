@@ -17,7 +17,7 @@ $(document).ready(function(){
         
         var newplacesVisited = new PlaceVisited(inputtedplaceName, inputtedplaceLocation, inputtedplaceLandmark, inputtedtimeOfYear, inputtednotes);
         console.log(newplacesVisited);
-        $("ol.listPlaces").append("<li><span class = 'listOutput'>" + newplacesVisited.placeName + "</span></li>");
+        $("ol#listPlaces").append("<li><span class = 'listOutput'>" + newplacesVisited.placeName + "</span></li>");
 
         $(".listOutput").last().click(function(){
             $("#information").show();
