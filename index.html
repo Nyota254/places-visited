@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places Visited</title>
+</head>
+<body>
+    <div class="container">
+        <h1>PLACES VISITED</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="places-visited">
+                    <div class="form-group">
+                        <label for="place">NAME OF PLACE VISITED</label>
+                        <input type="text" class="form-control" id="place">
+                    </div>
+                    <div class = "form-group">
+                        <label for="location">LOCATION</label>
+                        <input type="text" class="form-control" id="location">
+                    </div>
+                    <div class="form-group">
+                        <label for="landmark">LAND MARK</label>
+                        <input type="text" class="form-control" id="landMark">
+                    </div>
+                    <div class="form-group">
+                        <label for="timeOfYear">TIME OF YEAR VISITED</label>
+                        <input type="date" class="form-control" id="timeOfYear">
+                    </div>
+                    <div class="form-group">
+                    <textarea class="form-control" id="notes" cols="10" rows="3" placeholder="Notes about the place"></textarea>
+                    </div>
+                    <button class="btn btn-success" id="submit" type="submit">SUBMIT</button>
+                </form>
+                <h1>LIST OF VISITED PLACES:</h1>
+                <ol class="listPlaces">
+
+                </ol>
+
+            </div>
+            <div class="col-md-6">
+                <div id="information">
+                    <h1>ABOUT</h1>
+                    <h2></h2>
+                    <p>LOCATION: <span id="locationOutput"></span></p>
+                    <p>LANDMARK: <span id="landmarkOutput"></span></p>
+                    <p>TIME OF YEAR: <span id="timeOfYearOutput"></span></p>
+                    <p>NOTES: <span id="notesOutput"></span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

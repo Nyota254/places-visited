@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Rancho', cursive;
+}
+
+#information {
+    display: none;
+}
+
+.listOutput {
+    cursor: pointer;
+    color: purple;
+}
+
+.listOutput:hover {
+    text-decoration: underline
+}
