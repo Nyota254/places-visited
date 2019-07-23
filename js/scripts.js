@@ -26,6 +26,10 @@ $(document).ready(function(){
             $("#timeOfYearOutput").text(newplacesVisited.placeTimeOfYear);
             $("#notesOutput").text(newplacesVisited.placeNotes);
         });
-
+        $("#place").val("");
+        $("#location").val("");
+        $("#landMark").val("");
+        $("#timeOfYear").val("");
+        $("#notes").val("");
     });
 });

@@ -17,3 +17,8 @@ body {
 .listOutput:hover {
     text-decoration: underline
 }
+
+.visibility {
+    background-color: black;
+    color : white;
+}
